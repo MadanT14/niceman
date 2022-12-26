@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Inter', sans-serif;
+    font-size: 62.5%;
+
+}
+
+header{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../Images/package.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-body{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.p-items{
+    background-color: rgba(255, 255, 255, 0.259);
+    color: white;
+    width: 34rem;
+    height: 58rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 45px;
+
+}
+
+.p-items .heading{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.p-items h1{
+    font-size: 8rem;
+    text-align: center;
+}
+
+.p-items .per-location{
+    font-size: 1.5rem;
+    text-align: right;
+    width: 25rem;
+    margin-bottom: 2rem;
+}
+
+.p-items h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.p-items .list-details{
+    margin-bottom: 5rem;
+    height: 10rem;
+    /* border: 2px solid red; */
+}
+.p-items .details{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.p-items a{
+    font-size: 1.5rem;
+    color: white;
+    padding: 1rem 1.5rem;
+    background-color: rgb(255, 45, 45);
+    text-decoration: none;
+
+}
+
+.back{
+    font-size: 2rem;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+

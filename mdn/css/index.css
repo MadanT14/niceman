@@ -1,0 +1,1135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Inter', sans-serif;
+    font-size: 62.5%;
+}
+
+.cover{
+    overflow-x: hidden;
+    background-color: aliceblue;
+}
+
+
+.background{
+    background: url("../Images/entery\ page.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 10rem;
+    width: 100vw;
+    align-items: center;
+    padding: 0 6rem;
+    transition: all ease-in 0.2s;
+}
+
+.navbar:hover{
+        background-color: rgba(255, 255, 255, 0.162);
+}
+
+
+
+
+.navitems .items{
+    display: flex;
+    gap: 6rem;
+}
+
+.logo{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.logo span{
+    font-weight: 900;
+}
+
+
+
+
+.item{
+    list-style: none;
+    font-size: 1.8rem;
+    padding: 1.3rem 0;
+    transition: all linear 0.1s;
+}
+
+.item1{
+    font-weight: 600;
+    border-bottom: 2px solid white;
+}
+
+
+
+.item:hover{
+    font-weight: 600;
+}
+
+
+.item a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+.hamburger{
+    display: none;
+    z-index: 5;
+}
+
+.hamburger .fa-xmark{
+    display: none;
+}
+
+
+
+
+
+
+/* ---------------------------------------------
+
+
+BODY
+
+
+--------------------------------------------- */
+
+
+.mainbody{
+    display: flex;
+    color: white;
+    height: calc(100vh - 18rem);
+    align-items: center;
+    padding-left: 10rem;
+
+}
+
+.container .bodypara1, .container .bodypara2{
+    font-size: 1.5rem;
+}
+
+.container .bodypara2{
+    max-width: 40rem;
+    margin-bottom: 4rem;
+}
+
+.container .largehead{
+    font-size: 8rem;
+    max-width: 80rem;
+    line-height: 9rem;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container .signup{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.285);
+    padding: 1rem 2rem;
+    border-radius: 40px;
+    transition: all ease 0.2s;
+}
+
+.signup:hover{
+    background-color: #0E0F1B;
+}
+
+.container .loginpara{
+    margin-top: 4rem;
+    font-size: 1.5rem;
+}
+
+.container .loginpara a{
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ----------------------------------------------------
+
+Body 2
+
+---------------------------------------------------- */
+
+
+
+.body2 .firsthead{   /* this------------- */
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(65, 64, 64);
+    margin-bottom: 4rem;
+    margin-top: 5rem;
+}
+
+.body2 .box{
+    border-radius: 30px;
+}
+
+.three-boxes, .two-boxes{      /* this------------- */
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.three-boxes .box, .two-boxes .box{   /* this------------- */
+    background-color: white;
+    height: 44rem;
+    width: 34rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.iconbox{
+    height: 12rem;
+    margin-top: 2rem;
+    /* border: 2px solid red; */
+}
+
+.iconbox .icon{
+    height: 100%;
+    width: 100%;
+}
+
+.boxes h1{
+    /* border: 2px solid red; */
+    font-size: 3rem;
+    width: 26rem;
+    margin-top: 2.5rem;
+    text-align: center;
+    color: rgb(65, 64, 64);
+}
+
+.boxes p{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 0 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 9rem;
+}
+
+.boxes a{
+    font-size: 2rem;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    color: white;
+    background-color: rgb(255, 69, 69);
+    text-decoration: none;
+    border-radius: 35px;
+}
+
+/* Contact card and footer ------------------------------------------- */
+
+.contact-card{
+    background-color: #16152a;
+    margin-top: 5rem;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10rem 4rem;
+    box-shadow: 0px 0px 8px 0px rgb(153, 153, 153);
+}
+
+.contact-card h1{
+    font-size: 3rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
+
+}
+
+.contact-card p{
+    font-size: 1.5rem;
+    width: 60rem;
+    color: white;
+}
+
+.contact-card a{
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    background-color: rgb(255, 69, 69);
+    color: white;
+    text-decoration: none;
+}
+
+
+/* -----------------footer------------------- */
+
+footer{
+    padding: 4rem 10rem;
+    margin-top: 10rem;
+    background-color: #16152a;
+}
+
+footer h2{
+    color: #ffffff;
+    font-size: 2rem;
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.fa-brands{
+    font-size: 2.5rem;
+    margin: 0 0.5rem;
+    color:  white;
+}
+
+.topline{
+    margin-top: 0.8rem;
+    margin-bottom: 4rem;
+}
+
+.footerwrap{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fabout h1{
+    color: white;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+}
+
+.fabout p{
+    font-size: 1.5rem;
+    width: 42rem;
+    margin-top: 1.5rem;
+    font-family: sans-serif;
+    color: white;
+}
+
+.finfo h1{
+    color: white;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+}
+
+.finfo li{
+    list-style: none;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.finfo li a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+
+.fsupport h1{
+    color: white;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+}
+
+.fsupport li{
+    list-style: none;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.fsupport li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+
+.copyright{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 4rem;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:319.5px){
+    html{
+        font-size: 52%;
+    }
+    .navbar{
+        padding: 2.8rem;
+        position: relative;
+        height: 7rem;
+        background-color: rgba(0, 0, 0, 0.337);
+    }
+
+    .hamburger{
+        display: block;
+        font-size: 2.5rem;
+    }
+
+    .navitems{
+        display: flex;
+        background-color: rgb(13, 13, 28);
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        justify-content: center;
+        align-items: center;
+        transition: all linear 0.3s;
+        transform: translateX(100%);
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    .active .navitems{
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+    
+    .navitems .items{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .active .hamburger .fa-xmark{
+        display: block;
+
+    }
+
+    .active .hamburger .fa-bars{
+        display: none;
+    }
+
+    hr{
+        display: none;
+        margin: 0;
+    }
+
+
+    /* -----------body---------------------- */
+
+    .background{
+        background-position: right;
+    }
+
+
+
+    .mainbody{
+        padding-left: 2rem;
+        height: calc(100vh - 12rem);
+    }
+
+    .container .bodypara1, .container .bodypara2{
+        font-size: 1.3rem;
+    }
+
+    .container .largehead{
+        font-size: 6rem;
+        max-width: 50rem;
+        line-height: 7rem;
+    }
+
+    .container .loginpara{
+        max-width: 20rem;
+        line-height: 2rem;
+    }
+
+    .container .loginpara a{
+        border-bottom: 1px solid white;
+    }
+
+
+    /* ------------body 2-------------------- */
+
+    .body2 .firsthead{
+        font-size: 3rem;
+        margin-top: 4rem;
+
+    }
+
+    .three-boxes, .two-boxes{
+        display: block;
+        height: auto;
+        width: auto;
+
+    }
+
+    .three-boxes .box, .two-boxes .box{
+        margin: 2rem auto;
+        width: auto;
+        height: 44rem;
+    }
+
+    .boxes p{
+        height: auto;
+        width: auto;
+    }
+
+    /* -----------------Contact card and footer------------------- */
+
+    .contact-card{
+        display: block;
+        margin: 0 1rem;
+        padding: 1rem 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .con-text h1{
+        padding-top: 1rem;
+        font-size: 3rem;
+        width: auto;
+        text-align: center;
+    }
+
+    .con-text p{
+        font-size: 1.8rems;
+        width: auto;
+        text-align: center;
+    }
+
+    .con-btn{
+        font-size: 2.5rem;
+        padding: 0.5rem 1rem;
+        height: auto;
+        margin: auto;
+        display: block;
+        margin-top: 3rem;
+        width: 120px;
+        text-align: center;
+        background-color: none;
+    }
+
+
+    footer{
+        padding: 2rem 2rem;
+    }
+
+    footer h2{
+        font-size: 1.8rem;
+
+    }
+
+    .fa-brands{
+        margin: 0 0.5rem;
+        font-size: 2rem;
+    }
+
+    .footerwrap{
+        display: block;
+    }
+
+    .fabout h1, .finfo h1, .fsupport h1{
+        font-size: 2rem;
+        margin-top: 4rem;
+    }
+
+    .fabout p{
+        width: auto;
+    }
+
+
+}
+
+@media screen and (min-width:320px){
+    html{
+        font-size: 52%;
+    }
+    .navbar{
+        padding: 2.8rem;
+        position: relative;
+        height: 7rem;
+        background-color: rgba(0, 0, 0, 0.337);
+    }
+
+    .hamburger{
+        display: block;
+        font-size: 2.5rem;
+    }
+
+    .navitems{
+        display: flex;
+        background-color: rgb(13, 13, 28);
+        height: 100vh;
+        width: 70%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        justify-content: center;
+        align-items: center;
+        transition: all linear 0.3s;
+        transform: translateX(100%);
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    .active .navitems{
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+    
+    .navitems .items{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .active .hamburger .fa-xmark{
+        display: block;
+
+    }
+
+    .active .hamburger .fa-bars{
+        display: none;
+    }
+
+    hr{
+        display: none;
+        margin: 0;
+    }
+
+
+    /* -----------body---------------------- */
+
+    .background{
+        background: linear-gradient(rgb(0,0,0,0.4), rgb(0,0,0,0.4)), url("../Images/entery\ page.jpg");
+        background-size: cover;
+        background-position: right;
+    }
+
+
+
+    .mainbody{
+        padding-left:3rem;
+        height: calc(100vh - 12rem);
+    }
+
+    .container .bodypara1, .container .bodypara2{
+        font-size: 1.3rem;
+    }
+
+    .container .largehead{
+        font-size: 6rem;
+        max-width: 50rem;
+        line-height: 7rem;
+    }
+
+    .container .loginpara{
+        max-width: 20rem;
+        line-height: 2rem;
+    }
+
+    .container .loginpara a{
+        border-bottom: 1px solid white;
+    }
+
+        /* ------------body 2-------------------- */
+
+    .body2 .firsthead{
+        font-size: 3rem;
+        margin-top: 4rem;
+    
+    }
+    
+    .three-boxes, .two-boxes{
+        display: block;
+        padding: 0 5rem;
+    
+    }
+    
+    .three-boxes .box, .two-boxes .box{
+        margin: 2rem auto;
+        width: auto;
+    }
+    
+    .boxes p{
+        height: auto;
+        width: auto;
+    }
+
+    .boxes a{
+        margin-top: 2rem;
+    }
+
+    /* -------------footer and card---------------- */
+
+    .contact-card{
+        display: block;
+        margin: 0 1rem;
+        padding: 1rem 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .con-text h1{
+        padding-top: 1rem;
+        font-size: 3rem;
+        width: auto;
+        text-align: center;
+    }
+
+    .con-text p{
+        font-size: 1.8rem;
+        width: auto;
+        text-align: center;
+    }
+
+    .con-btn{
+        font-size: 2.5rem;
+        padding: 0.5rem 1rem;
+        height: auto;
+        margin: auto;
+        display: block;
+        margin-top: 3rem;
+        width: 120px;
+        text-align: center;
+        background-color: none;
+    }
+
+        /* -----------------------foooter---------- */
+
+        footer{
+            padding: 2rem 2rem;
+        }
+    
+        footer h2{
+            font-size: 1.8rem;
+    
+        }
+    
+        .fa-brands{
+            margin: 0 0.5rem;
+            font-size: 2rem;
+        }
+    
+        .footerwrap{
+            display: block;
+        }
+    
+        .fabout h1, .finfo h1, .fsupport h1{
+            font-size: 2rem;
+            margin-top: 4rem;
+        }
+    
+        .fabout p{
+            width: auto;
+        }
+
+        
+
+
+    
+
+}
+@media screen and (min-width:481px){
+    .mainbody{
+        padding-left: 4rem;
+    }
+    .container .bodypara1, .container .bodypara2{
+        font-size: 1.4rem;
+    }
+
+    .container .largehead{
+        font-size: 7rem;
+    }
+
+    .container .loginpara{
+        max-width: 50rem;
+    }
+
+
+    /* -----------------------body 2------------------------*/
+
+    .three-boxes, .two-boxes{
+        /* border: 2px solid red; */
+        padding: 0;
+    }
+
+    .three-boxes .box, .two-boxes .box{
+        max-width: 50rem;
+        margin: 2rem auto;
+    }
+
+
+    /* -------------footer and card-------------- */
+
+    .contact-card{
+        margin: 0 2rem;
+        padding: 2rem 8rem;
+        padding-bottom: 2rem;
+    }
+
+    .con-text h1{
+        font-size: 3.5rem;
+    }
+
+    .con-text{
+        font-size: 2rem;
+    }
+
+    .con-btn{
+        font-size: 2rem;
+        padding: 1rem 1.5rem;
+    }
+
+
+
+
+
+}
+@media screen and (min-width:600px){
+    html{
+        font-size: 58%;
+    }
+
+    .navbar{
+        position: static;
+        background-color: transparent;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    .navitems{
+        display: block;
+        height: auto;
+        width: auto;
+        position: static;
+        transform: none;
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+        background-color: transparent;  
+    }
+
+    .navitems .items{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .item{
+
+        font-size: 1.5rem;
+    }
+
+
+    /* ----------body------------------------ */
+
+
+    .mainbody{
+        height: calc(100vh - 10rem);
+    }
+
+
+    /* -----------------body2----------------------- */
+
+    .three-boxes, .two-boxes{
+        display: flex;
+        overflow: hidden;
+        margin: 2rem auto;
+        padding: 0 1rem;
+
+
+    }
+
+    .three-boxes .box, .two-boxes .box{
+        display: flex;
+        /* border: 2px solid green; */
+        height: 40rem;
+
+    }
+
+    .boxes h1{
+        font-size: 2rem;
+        width: 15rem;
+    }
+
+    .boxes p{
+        font-size: 1.2rem;
+    }
+
+    .iconbox{
+        height: 8rem;
+        width: 8rem;
+    }
+
+    /* -----------------Contact card and footer------------------- */
+
+
+
+    .contact-card{
+        display: flex;
+        padding: 2rem 4rem;
+        margin: 0 2rem;
+        align-items: center;
+    }
+
+    .con-text h1{
+        text-align: left;
+        font-size: 3rem;
+        width: 300px;
+    }
+
+    .con-text p{
+        text-align: left;
+        font-size: 1.8rem;
+        width: 300px;
+    }
+
+    .con-btn{
+        height: 100%;
+        margin: 0;
+        display: inline;
+        width: auto;
+    }
+
+    /* --------------------footer----------------- */
+
+    footer{
+        padding: 2rem 5rem;
+    }
+
+    footer h2{
+        font-size: 2rem;
+    }
+
+    .fa-brands{
+        font-size: 2.2rem;
+    }
+
+    .footerwrap{
+        display: flex;
+    }
+
+
+    .fabout p{
+        width: 28rem;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width:769px){
+    html{
+        font-size: 60%;
+    }
+
+    .navitems .items{
+        gap: 3rem;
+    }
+
+    .mainbody{
+        height: calc(100vh - 8rem);
+        padding-left: 6rem;
+    }
+
+    /* -------------body2------------*/
+
+    .three-boxes, .two-boxes{
+        padding:0 3rem;
+
+    }
+
+    .three-boxes .box, .two-boxes .box{
+        height: 44rem;
+        width: 34rem;
+    }
+
+    .iconbox{
+        height: 10rem;
+        width: 10rem;
+    }
+    .boxes h1{
+        font-size: 3rem;
+        /* border: 2px solid red; */
+        width: 25rem;
+    }
+
+    .boxes p{
+        font-size: 1.4rem;
+    }
+
+
+    /* -----------------Contact card and footer------------------- */
+
+    .contact-card{
+        margin: 0 3rem;
+        padding: 5rem;
+    }
+
+    .con-text h1{
+        width: 510px;
+    }
+
+    .con-text p{
+        width: 420px;
+    }
+
+    .con-btn{
+        font-size: 3rem;
+        padding: 1rem 2rem;
+    }
+
+
+    /* ---------------foooter------------------ */
+    .fabout p{
+        width: 30rem;
+    }
+
+
+}
+
+
+
+@media screen and (min-width:946px){
+    html{
+        font-size: 62%;
+    }
+
+    .mainbody{
+        padding-left: 8rem;
+    }
+
+    /* -----------body2----------- */
+    .three-boxes, .two-boxes{
+        max-width: 100rem;
+    }
+
+
+    /* -----------------Contact card and footer------------------- */
+
+    .contact-card{
+        margin: 0 5rem;
+    }
+
+    /* ----------------footer------------------ */
+
+    footer{
+        padding: 2rem 8rem;
+    }
+
+    .fabout p{
+        width: 34rem;
+    }
+
+
+
+
+}
+@media screen and (min-width:1100px){
+
+    html{
+        font-size: 62.5%;
+    }
+
+    .background{
+        background: linear-gradient(rgb(0,0,0,0.2), rgb(0,0,0,0.2)), url("../Images/entery\ page.jpg");
+        background-size: cover;
+        background-position: right;
+    }
+
+    .container .largehead{
+        font-size: 8rem;
+        max-width: 70rem;
+        line-height: 8rem;
+    }
+
+    .mainbody{
+        padding-left: 10rem;
+        height: calc(100vh - 12rem);
+    }
+
+    .navitems .items{
+        gap: 4rem;
+    }
+
+    
+    .item{
+
+        font-size: 1.8rem;
+    }
+
+    /* -----------body2------------------*/
+
+    .two-boxes{
+        max-width: 80rem;
+    }
+
+    /* -----------------Contact card and footer------------------- */
+
+
+    .contact-card{
+        margin: 0 8rem;
+    }
+
+     /* ----------------footer------------------ */
+
+     footer{
+        padding: 5rem 14rem;
+    }
+
+    .fabout p{
+        width: 38rem;
+    }
+
+
+
+
+}
+
+
+
+

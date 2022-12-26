@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Inter', sans-serif;
+    font-size: 62.5%;
+}
+
+
+.background{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../Images/airple.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
+
+.boxes{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.form-items1{
+
+}
+
+.form-items1 h1{
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-items1 .notice{
+    font-size: 1.5rem;
+    width: 50rem;
+    margin-bottom: 4rem;
+}
+
+.notice a{
+    font-weight: 700;
+    color: white;
+
+}
+
+.air-detail{
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 30rem;
+}
+
+.submit{
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    padding: 1rem;
+    background-color: rgb(255, 61, 61);
+    color: white;
+    border: none;
+}
+
+
+.textitems .time{
+    font-size: 6rem;
+    text-align: center;
+
+}
+
+.textitems .date{
+    font-size: 1.5rem;
+    text-align: end;
+}
+
